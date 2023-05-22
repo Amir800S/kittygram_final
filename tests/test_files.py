@@ -19,7 +19,7 @@ def test_deploy_info_file_content(
         deploy_file_info: tuple[Path, str],
         deploy_info_file_content: dict[str, str],
         expected_deploy_info_file_content: dict[str, str]
-        ):
+):
     _, relative_path = deploy_file_info
     missing_content = {
         key: value for key, value in expected_deploy_info_file_content.items()
