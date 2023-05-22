@@ -1,4 +1,4 @@
-#  kittygram docker-compose
+# kittygram docker-compose
 version: '3'
 
 volumes:
