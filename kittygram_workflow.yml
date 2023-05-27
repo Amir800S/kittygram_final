@@ -69,7 +69,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Set up nodeJS
-      # Это готовый воркфлоу для установки NodeJS на раннер
       uses: actions/setup-node@v3
       with:
         # Это параметр воркфлоу, указывающий нужную версию NodeJS
