@@ -40,7 +40,7 @@ location / {
 ```
 В файле kittygram_workflow.yml - настройки для GitHub Actions он находится:
 ```python
-kittygram/.github/workflows/kittygram_workflow.yml
+kittygram_final/.github/workflows/kittygram_workflow.yml
 ```
 
 ### Проект с котиками готов к работе!
