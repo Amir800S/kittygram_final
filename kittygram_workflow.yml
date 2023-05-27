@@ -71,7 +71,6 @@ jobs:
     - name: Set up nodeJS
       uses: actions/setup-node@v3
       with:
-        # Это параметр воркфлоу, указывающий нужную версию NodeJS
         node-version: 18
 
     - name: Install dependencies
