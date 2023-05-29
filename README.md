@@ -44,5 +44,3 @@ kittygram_final/.github/workflows/kittygram_workflow.yml
 ```
 
 ### Проект с котиками готов к работе!
-
-### *Автор: Сабуров Амир* 
