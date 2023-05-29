@@ -2,7 +2,8 @@ version: '3'
 
 volumes:
   pg_data_production:
-  static_volume:
+  kittygram_static:
+  media:
 
 services:
   db:
@@ -14,18 +15,17 @@ services:
     image: amir800s/kittygram_backend
     env_file: .env
     volumes:
-      - static_volume:/backend_static
+      - kittygram_static:/backend_static
   frontend:
     image: amir800s/kittygram_frontend
     env_file: .env
     command: cp -r /app/build/. /frontend_static/
     volumes:
-      - static_volume:/frontend_static
+      - kittygram_static:/static
   gateway:
     image: amir800s/kittygram_gateway
     env_file: .env
     volumes:
-      - static_volume:/staticfiles/
-      - media:/media
+      - kittygram_static:/static
     ports:
       - 9000:80
