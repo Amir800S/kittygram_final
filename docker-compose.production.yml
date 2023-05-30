@@ -19,7 +19,7 @@ services:
   frontend:
     image: amir800s/kittygram_frontend
     env_file: .env
-    command: cp -r /app/build/. /frontend_static/
+    command: cp -r /app/build/. /static/
     volumes:
       - kittygram_static:/static
   gateway:
