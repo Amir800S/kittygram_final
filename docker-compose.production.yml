@@ -16,6 +16,9 @@ services:
     env_file: .env
     volumes:
       - kittygram_static:/backend_static
+      - media:/media
+    depends_on:
+      - db
   frontend:
     image: amir800s/kittygram_frontend
     env_file: .env
@@ -27,5 +30,6 @@ services:
     env_file: .env
     volumes:
       - kittygram_static:/static
+      - media:/media
     ports:
       - 9000:80
