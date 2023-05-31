@@ -1,7 +1,6 @@
 name: Main Kittygram workflow
 
-on:
-  push:
+on: push
 
 jobs:
   tests:
