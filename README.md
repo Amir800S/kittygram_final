@@ -1,4 +1,5 @@
 #  Проект Kittygram
+![Badge](https://badgen.net/badge/kittygram_workflow/passing/green?icon=github)
 ### Через Kittygram возможно создание, редактирование и просмотр котиков!
 Использованные технологии:
 
