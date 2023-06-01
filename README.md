@@ -1,5 +1,5 @@
 #  Проект Kittygram
-![Badge](https://badgen.net/badge/kittygram_workflow/passing/green?icon=github)
+![Badge](https://github.com/Amir800S/kittygram_final/actions/workflows/kittygram_workflow.yml/badge.svg)
 ### Через Kittygram возможно создание, редактирование и просмотр котиков!
 Использованные технологии:
 
